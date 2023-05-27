@@ -4,9 +4,9 @@ using System.Drawing.Printing;
 
 namespace Notes_Printer
 {
-    public partial class Form1 : Form
+    public partial class index : Form
     {
-        public Form1()
+        public index()
         {
             InitializeComponent();
         }
