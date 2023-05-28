@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes Printer", "Notes Printer.csproj", "{4F6D183D-5098-4CA1-9134-92B76937096E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StickyPrint", "StickyPrint.csproj", "{4F6D183D-5098-4CA1-9134-92B76937096E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StickyPrint.Tests", "StickyPrint.Tests\StickyPrint.Tests.csproj", "{3CC32E48-ABDB-4A56-82F5-981A0983E43C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4F6D183D-5098-4CA1-9134-92B76937096E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F6D183D-5098-4CA1-9134-92B76937096E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F6D183D-5098-4CA1-9134-92B76937096E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CC32E48-ABDB-4A56-82F5-981A0983E43C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CC32E48-ABDB-4A56-82F5-981A0983E43C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CC32E48-ABDB-4A56-82F5-981A0983E43C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CC32E48-ABDB-4A56-82F5-981A0983E43C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
