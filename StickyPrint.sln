@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StickyPrint.GUI", "StickyPr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StickyPrint.Tests", "StickyPrint.Tests\StickyPrint.Tests.csproj", "{3CC32E48-ABDB-4A56-82F5-981A0983E43C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StickyPrint.API", "StickyPrint.API\StickyPrint.API.csproj", "{F84499F4-D92C-4B9F-A342-8BDDA8C62A01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,22 @@ Global
 		{3CC32E48-ABDB-4A56-82F5-981A0983E43C}.Release|x64.Build.0 = Release|Any CPU
 		{3CC32E48-ABDB-4A56-82F5-981A0983E43C}.Release|x86.ActiveCfg = Release|Any CPU
 		{3CC32E48-ABDB-4A56-82F5-981A0983E43C}.Release|x86.Build.0 = Release|Any CPU
+		{F84499F4-D92C-4B9F-A342-8BDDA8C62A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F84499F4-D92C-4B9F-A342-8BDDA8C62A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F84499F4-D92C-4B9F-A342-8BDDA8C62A01}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{F84499F4-D92C-4B9F-A342-8BDDA8C62A01}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{F84499F4-D92C-4B9F-A342-8BDDA8C62A01}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F84499F4-D92C-4B9F-A342-8BDDA8C62A01}.Debug|x64.Build.0 = Debug|Any CPU
+		{F84499F4-D92C-4B9F-A342-8BDDA8C62A01}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F84499F4-D92C-4B9F-A342-8BDDA8C62A01}.Debug|x86.Build.0 = Debug|Any CPU
+		{F84499F4-D92C-4B9F-A342-8BDDA8C62A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F84499F4-D92C-4B9F-A342-8BDDA8C62A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F84499F4-D92C-4B9F-A342-8BDDA8C62A01}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{F84499F4-D92C-4B9F-A342-8BDDA8C62A01}.Release|ARM64.Build.0 = Release|Any CPU
+		{F84499F4-D92C-4B9F-A342-8BDDA8C62A01}.Release|x64.ActiveCfg = Release|Any CPU
+		{F84499F4-D92C-4B9F-A342-8BDDA8C62A01}.Release|x64.Build.0 = Release|Any CPU
+		{F84499F4-D92C-4B9F-A342-8BDDA8C62A01}.Release|x86.ActiveCfg = Release|Any CPU
+		{F84499F4-D92C-4B9F-A342-8BDDA8C62A01}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
