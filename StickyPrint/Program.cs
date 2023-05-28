@@ -1,4 +1,4 @@
-namespace Notes_Printer
+namespace StickyPrint
 {
     internal static class Program
     {

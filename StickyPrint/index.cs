@@ -2,7 +2,7 @@ using System.IO;
 using System.Drawing;
 using System.Drawing.Printing;
 
-namespace Notes_Printer
+namespace StickyPrint
 {
     public partial class index : Form
     {
