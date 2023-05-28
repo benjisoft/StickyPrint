@@ -30,4 +30,4 @@ jobs:
         # Artifact name
         name: App # optional, default is artifact
         # A file, directory or wildcard pattern that describes what to upload
-        path: \StickyPrint\bin\Release\net6.0-windows\StickyPrint.exe
+        path: /home/runner/work/StickyPrint/StickyPrint/StickyPrint/bin/
