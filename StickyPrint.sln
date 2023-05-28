@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StickyPrint", "StickyPrint\StickyPrint.csproj", "{93424054-584A-44B3-A641-2CDDF8F547DD}"
-EndProject
 Project("{B7DD6F7E-DEF8-4E67-B5B7-07EF123DB6F0}") = "StickyPrint.Installer", "StickyPrint.Installer\StickyPrint.Installer.wixproj", "{1B3A840E-024B-43FC-AE88-5AEB3AFFD81C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StickyPrint.GUI", "StickyPrint.GUI\StickyPrint.GUI.csproj", "{EB620974-5397-413F-8572-1C539673496C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,22 +19,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{93424054-584A-44B3-A641-2CDDF8F547DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{93424054-584A-44B3-A641-2CDDF8F547DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{93424054-584A-44B3-A641-2CDDF8F547DD}.Debug|ARM64.ActiveCfg = Debug|Any CPU
-		{93424054-584A-44B3-A641-2CDDF8F547DD}.Debug|ARM64.Build.0 = Debug|Any CPU
-		{93424054-584A-44B3-A641-2CDDF8F547DD}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{93424054-584A-44B3-A641-2CDDF8F547DD}.Debug|x64.Build.0 = Debug|Any CPU
-		{93424054-584A-44B3-A641-2CDDF8F547DD}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{93424054-584A-44B3-A641-2CDDF8F547DD}.Debug|x86.Build.0 = Debug|Any CPU
-		{93424054-584A-44B3-A641-2CDDF8F547DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{93424054-584A-44B3-A641-2CDDF8F547DD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{93424054-584A-44B3-A641-2CDDF8F547DD}.Release|ARM64.ActiveCfg = Release|Any CPU
-		{93424054-584A-44B3-A641-2CDDF8F547DD}.Release|ARM64.Build.0 = Release|Any CPU
-		{93424054-584A-44B3-A641-2CDDF8F547DD}.Release|x64.ActiveCfg = Release|Any CPU
-		{93424054-584A-44B3-A641-2CDDF8F547DD}.Release|x64.Build.0 = Release|Any CPU
-		{93424054-584A-44B3-A641-2CDDF8F547DD}.Release|x86.ActiveCfg = Release|Any CPU
-		{93424054-584A-44B3-A641-2CDDF8F547DD}.Release|x86.Build.0 = Release|Any CPU
 		{1B3A840E-024B-43FC-AE88-5AEB3AFFD81C}.Debug|Any CPU.ActiveCfg = Debug|x64
 		{1B3A840E-024B-43FC-AE88-5AEB3AFFD81C}.Debug|Any CPU.Build.0 = Debug|x64
 		{1B3A840E-024B-43FC-AE88-5AEB3AFFD81C}.Debug|ARM64.ActiveCfg = Debug|ARM64
@@ -51,6 +35,22 @@ Global
 		{1B3A840E-024B-43FC-AE88-5AEB3AFFD81C}.Release|x64.Build.0 = Release|x64
 		{1B3A840E-024B-43FC-AE88-5AEB3AFFD81C}.Release|x86.ActiveCfg = Release|x86
 		{1B3A840E-024B-43FC-AE88-5AEB3AFFD81C}.Release|x86.Build.0 = Release|x86
+		{EB620974-5397-413F-8572-1C539673496C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB620974-5397-413F-8572-1C539673496C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB620974-5397-413F-8572-1C539673496C}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{EB620974-5397-413F-8572-1C539673496C}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{EB620974-5397-413F-8572-1C539673496C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EB620974-5397-413F-8572-1C539673496C}.Debug|x64.Build.0 = Debug|Any CPU
+		{EB620974-5397-413F-8572-1C539673496C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EB620974-5397-413F-8572-1C539673496C}.Debug|x86.Build.0 = Debug|Any CPU
+		{EB620974-5397-413F-8572-1C539673496C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB620974-5397-413F-8572-1C539673496C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB620974-5397-413F-8572-1C539673496C}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{EB620974-5397-413F-8572-1C539673496C}.Release|ARM64.Build.0 = Release|Any CPU
+		{EB620974-5397-413F-8572-1C539673496C}.Release|x64.ActiveCfg = Release|Any CPU
+		{EB620974-5397-413F-8572-1C539673496C}.Release|x64.Build.0 = Release|Any CPU
+		{EB620974-5397-413F-8572-1C539673496C}.Release|x86.ActiveCfg = Release|Any CPU
+		{EB620974-5397-413F-8572-1C539673496C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
