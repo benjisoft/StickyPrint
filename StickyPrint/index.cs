@@ -38,8 +38,8 @@ namespace StickyPrint
             var stringToPrint = richTextBox1.Text;
             int charactersOnPage = 0;
             int linesPerPage = 0;
-            Margins margins = new Margins(100, 100, 100, 100);
-            printDocument1.DefaultPageSettings.Margins = margins;
+            SizeF size = new SizeF(247, 100);
+            RectangleF margins = new RectangleF(0, 100, 247, 100);
 
             // Sets the value of charactersOnPage to the number of characters
             // of stringToPrint that will fit within the bounds of the page.
@@ -49,7 +49,7 @@ namespace StickyPrint
 
             // Draws the string within the bounds of the page
             e.Graphics.DrawString(stringToPrint, this.Font, Brushes.Black,
-                e.MarginBounds, StringFormat.GenericTypographic);
+                margins, StringFormat.GenericTypographic);
 
             // Remove the portion of the string that has been printed.
             stringToPrint = stringToPrint.Substring(charactersOnPage);
