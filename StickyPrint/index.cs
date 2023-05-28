@@ -6,6 +6,13 @@ namespace StickyPrint
 {
     public partial class index : Form
     {
+        public string noteHeader = "";
+        public string noteFooter = @"
+
+
+============
+
+";
         public index()
         {
             InitializeComponent();
@@ -35,11 +42,11 @@ namespace StickyPrint
 
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
-            var stringToPrint = richTextBox1.Text;
+            var stringToPrint = noteHeader + richTextBox1.Text + noteFooter;
             int charactersOnPage = 0;
             int linesPerPage = 0;
             SizeF size = new SizeF(247, 100);
-            RectangleF margins = new RectangleF(0, 100, 247, 100);
+            RectangleF margins = new RectangleF(0, 0, 247, 1084);
 
             // Sets the value of charactersOnPage to the number of characters
             // of stringToPrint that will fit within the bounds of the page.
